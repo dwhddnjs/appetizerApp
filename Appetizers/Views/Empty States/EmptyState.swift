@@ -23,7 +23,6 @@ struct EmptyState: View {
                     .frame(height: 150)
                 Text(message)
                     .font(.title3)
-                
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
                     .foregroundColor(.secondary)

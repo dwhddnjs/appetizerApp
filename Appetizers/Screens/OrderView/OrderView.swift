@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OrderView: View {
     
-    @EnvironmentObject var order:Order
+    @EnvironmentObject var order: Order
     
     var body: some View {
         NavigationView {

@@ -27,7 +27,9 @@ struct LoadingView: View {
             Color(.systemBackground)
                 .ignoresSafeArea()
             
-            ActivityIndicator()
+//            ActivityIndicator()
+            ProgressView()
+                
         }
     }
     
